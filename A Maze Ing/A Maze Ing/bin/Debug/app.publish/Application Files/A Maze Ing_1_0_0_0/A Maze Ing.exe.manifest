@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="A Maze Ing.exe" version="1.0.0.0" publicKeyToken="da88238d4ceb1671" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="A Maze Ing" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="A Maze Ing.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="A Maze Ing.exe" size="16856">
+      <assemblyIdentity name="A Maze Ing" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>ARs15agGidr/Kenq8r/a+X+VE1w9Ii+90IWu3xwZ5bI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="A Maze Ing.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-I876NE7\User" issuerKeyHash="e7c0a4517b4322198ca634726c3b4aa8dff6f28f" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>yClFSVlmTDSvn0D+QM/F0RwgacNbeNCiIE/f//dpqFI=</DigestValue></Reference></SignedInfo><SignatureValue>UbqyBttCfOitVnVGoIjqaCQVgzmBmB9MRgj1xhcQk7uoWh1zOopXgLy8nKMGkPlElN/RShUeBzXr5kaD8AXMzL9f1pO2VV9m+8auHYwLjNgerR6xUojIQq29bZYcwhhNQDhv6BaSec+ctX3iaXzpGzKa7oTJxJP5eSv+FW3S0+E=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>olhS4EDxS7PLzftORoYXYIcZrfDqpGE1SR8V15uTwKvYHWIW7yfRGAEScJTYinCWBQGy4zwEnwDbp2ksmkUqgWQEzdRzXIaNqujpNsSy8t7X72PS8o4BTQ4VKewXCdmKMryi0JlacEUH93stTJEUG50SaP2TMg76l7D1a8Qn4Y0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="52a869f7ffdf4f20a2d0785bc369201cd1c5cf40fe409faf344c6659494529c8" Description="" Url=""><as:assemblyIdentity name="A Maze Ing.exe" version="1.0.0.0" publicKeyToken="da88238d4ceb1671" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-I876NE7\User</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>gqKvtqE1kiDdK78Sxuc4MfFrQFKI3CN8jjUNOOfv0z8=</DigestValue></Reference></SignedInfo><SignatureValue>lmkuKiFgIUJYz8C3fzr2yog4jqJPuB4bIB9HV/uoPYHXQnqGHIFcepqajbUMO6k0Z29XiYIM+uLUAxFq8SBGn18ShT3F9eT5+pHtx3G+GEaba0XN8p/NnMttwq9yDqenclq8mYnJDPCoPUx+PbmiuIUCXOhuqDVLRgtTJeMRxYE=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>olhS4EDxS7PLzftORoYXYIcZrfDqpGE1SR8V15uTwKvYHWIW7yfRGAEScJTYinCWBQGy4zwEnwDbp2ksmkUqgWQEzdRzXIaNqujpNsSy8t7X72PS8o4BTQ4VKewXCdmKMryi0JlacEUH93stTJEUG50SaP2TMg76l7D1a8Qn4Y0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQePBSzuVaPKdI61RsSZU08jANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigARABFAFMASwBUAE8AUAAtAEkAOAA3ADYATgBFADcAXABVAHMAZQByMB4XDTIyMTAwODA5MTUzMFoXDTIzMTAwODE1MTUzMFowMzExMC8GA1UEAx4oAEQARQBTAEsAVABPAFAALQBJADgANwA2AE4ARQA3AFwAVQBzAGUAcjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAolhS4EDxS7PLzftORoYXYIcZrfDqpGE1SR8V15uTwKvYHWIW7yfRGAEScJTYinCWBQGy4zwEnwDbp2ksmkUqgWQEzdRzXIaNqujpNsSy8t7X72PS8o4BTQ4VKewXCdmKMryi0JlacEUH93stTJEUG50SaP2TMg76l7D1a8Qn4Y0CAwEAATANBgkqhkiG9w0BAQsFAAOBgQAHJnHsFrb/nY3kt0P9Yul3z+cyQvxCX5Pfh8nnszaNMAwRW+pMuxwag64QESM53Sgspf56Y1dq4Y0wOU7+HZZ14EHaM5uWo9uuK01sDc4HykL4dEHiiWGZH6Gw8nBr9IoUsGrWk9Rft4Tm+W8i2/+KhSqElvCr1mdb34z44FJpRw==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

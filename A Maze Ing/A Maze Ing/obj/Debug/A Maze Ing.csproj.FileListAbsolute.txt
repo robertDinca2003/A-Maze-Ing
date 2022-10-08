@@ -1,0 +1,15 @@
+C:\Users\User\source\repos\A Maze Ing\A Maze Ing\bin\Debug\A Maze Ing.exe.config
+C:\Users\User\source\repos\A Maze Ing\A Maze Ing\bin\Debug\A Maze Ing.exe
+C:\Users\User\source\repos\A Maze Ing\A Maze Ing\bin\Debug\A Maze Ing.pdb
+C:\Users\User\source\repos\A Maze Ing\A Maze Ing\obj\Debug\A Maze Ing.csprojAssemblyReference.cache
+C:\Users\User\source\repos\A Maze Ing\A Maze Ing\obj\Debug\A_Maze_Ing.Game.resources
+C:\Users\User\source\repos\A Maze Ing\A Maze Ing\obj\Debug\A_Maze_Ing.Properties.Resources.resources
+C:\Users\User\source\repos\A Maze Ing\A Maze Ing\obj\Debug\A Maze Ing.csproj.GenerateResource.cache
+C:\Users\User\source\repos\A Maze Ing\A Maze Ing\obj\Debug\A Maze Ing.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\A Maze Ing\A Maze Ing\obj\Debug\A Maze Ing.exe
+C:\Users\User\source\repos\A Maze Ing\A Maze Ing\obj\Debug\A Maze Ing.pdb
+C:\Users\User\source\repos\A Maze Ing\A Maze Ing\obj\Debug\A_Maze_Ing.Form2.resources
+C:\Users\User\source\repos\A Maze Ing\A Maze Ing\bin\Debug\A Maze Ing.exe.manifest
+C:\Users\User\source\repos\A Maze Ing\A Maze Ing\bin\Debug\A Maze Ing.application
+C:\Users\User\source\repos\A Maze Ing\A Maze Ing\obj\Debug\A Maze Ing.exe.manifest
+C:\Users\User\source\repos\A Maze Ing\A Maze Ing\obj\Debug\A Maze Ing.application
